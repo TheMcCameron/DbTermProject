@@ -17,7 +17,7 @@ namespace DbTermProject.EntityFramework
     
     public class DbTermProjectContext : DbContext
     {
-        public DbTermProjectContext() : base("DbTermProjectDBConnectionString")
+        public DbTermProjectContext() : base("name=DbTermProjectDBConnectionString")
         {
 
         }
