@@ -56,6 +56,22 @@
     <Compile Include="Migrations\202012031341136_InitialDb.designer.cs">
       <DependentUpon>202012031341136_InitialDb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012031432182_SeedBuyersTable.cs" />
+    <Compile Include="Migrations\202012031432182_SeedBuyersTable.designer.cs">
+      <DependentUpon>202012031432182_SeedBuyersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012031537172_SeedSellersTable.cs" />
+    <Compile Include="Migrations\202012031537172_SeedSellersTable.designer.cs">
+      <DependentUpon>202012031537172_SeedSellersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012031545339_SeedItemsTable.cs" />
+    <Compile Include="Migrations\202012031545339_SeedItemsTable.designer.cs">
+      <DependentUpon>202012031545339_SeedItemsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012031634009_SeedBidsTable.cs" />
+    <Compile Include="Migrations\202012031634009_SeedBidsTable.designer.cs">
+      <DependentUpon>202012031634009_SeedBidsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -76,6 +92,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202012031341136_InitialDb.resx">
       <DependentUpon>202012031341136_InitialDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012031432182_SeedBuyersTable.resx">
+      <DependentUpon>202012031432182_SeedBuyersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012031537172_SeedSellersTable.resx">
+      <DependentUpon>202012031537172_SeedSellersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012031545339_SeedItemsTable.resx">
+      <DependentUpon>202012031545339_SeedItemsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012031634009_SeedBidsTable.resx">
+      <DependentUpon>202012031634009_SeedBidsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
